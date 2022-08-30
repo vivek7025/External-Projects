@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "506776437789",
+    "firebase_url": "https://foodbox-4571a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "foodbox-4571a",
+    "storage_bucket": "foodbox-4571a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506776437789:android:373c44f98b0fa24d30f2f4",
+        "android_client_info": {
+          "package_name": "com.example.foodbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506776437789-326h94q23vnb4l3dt0vfs6ugdiu33mlf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7eCqTQWmFQNJcVf0o6wq3FWIc-3XWIhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506776437789-326h94q23vnb4l3dt0vfs6ugdiu33mlf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506776437789:android:e2cd48a6126fc4aa30f2f4",
+        "android_client_info": {
+          "package_name": "com.example.fooddeliverfortrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506776437789-326h94q23vnb4l3dt0vfs6ugdiu33mlf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7eCqTQWmFQNJcVf0o6wq3FWIc-3XWIhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506776437789-326h94q23vnb4l3dt0vfs6ugdiu33mlf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

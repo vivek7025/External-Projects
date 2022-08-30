@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/iv_lunchboxImage"
+        android:layout_width="326dp"
+        android:layout_height="152dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="29dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/restaurant" />
+
+    <EditText
+        android:id="@+id/et_lunchboxName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_lunchboxImage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Lunch Box Name"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_lunchboxDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_lunchboxName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Lunch Box Description"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="395dp"
+        android:layout_below="@+id/et_lunchboxDesc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="23dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_item1"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter Item 1"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_item1Price"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_item2"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter Item 2"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_item2Price"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_item3"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter Item 3"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_item3Price"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_item4"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter Item 4"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_item4Price"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_item5"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter Item 5"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_item5Price"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_item6"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter Item 6"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_item6Price"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_item7"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter Item 7"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_item7Price"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_item8"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter Item 8"
+                android:inputType="number"
+                android:text="null"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_item8Price"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:hint="PRICE"
+                android:inputType="number"
+                android:text="0"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_addlunchbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="198dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/background3"
+            android:gravity="right"
+            android:text="Create"
+            android:textAllCaps="false"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>
